@@ -28,7 +28,7 @@
 
     <!-- Home -->
     <section class="home">
-        <div class="main" style="background:url(images/home.jpg) no-repeat">
+        <div class="slide" style="background:url(images/home.jpg) no-repeat">
             <div class="content">
                 <span>explore, discover, travel</span>
                 <h3>travel around india</h3>

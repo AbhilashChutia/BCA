@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Package</title>
 
     <!-- CSS file link -->
     <link rel="stylesheet" href="css/style.css">
@@ -16,7 +16,7 @@
 
     <!-- Header -->
     <section class="header">
-        <a href="home.php" class="logo">the indian experience</a>
+        <a href="home.php" class="logo">Travel</a>
 
         <nav class="navbar">
             <a href="home.php">home</a>
@@ -26,111 +26,79 @@
         </nav>
     </section>
 
-    <!-- Home -->
-    <section class="home">
-        <div class="main" style="background:url(images/home.jpg) no-repeat">
-            <div class="content">
-                <span>explore, discover, travel</span>
-                <h3>travel around india</h3>
-                <a href="package.php" class="btn">discover india</a>
-            </div>
-        </div>
-    </section>
+    <div class="heading" style="background:url(images/heading.png) no-repeat">
+        <h1>available packages</h1>
+    </div>
 
-    <!-- Explore -->
-    <section class="explore">
-        <h1>explore this beautiful land</h1>
-        <p>
-            India is a home to the finest architectural heritage, serene ghats, spectacular landscapes and largest tiger reserve. One of the oldest civilisations in the world, India is a mosaic of multicultural experiences.
-            <br> With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world.
-            <br />Thank you for visiting!
-        </p>
-        <div class="row">
-            <div class="explore-col">
-                <img src="images/1.jpg" />
-                <div class="layer">
-                    <h3>explore
-                        <br>the historic palaces of india
-                    </h3>
-                </div>
-            </div>
-            <div class="explore-col">
-                <img src="images/2.jpg" />
-                <div class="layer">
-                    <h3>explore
-                        <br>the natural beauty of India
-                    </h3>
-                </div>
-            </div>
-            <div class="explore-col">
-                <img src="images/3.jpg" />
-                <div class="layer">
-                    <h3>explore
-                        <br>the world heritage sites of india
-                    </h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Home About -->
-    <section class="home-about">
-        <div class="image">
-            <img src="images/haboutus.jpg" alt="">
-        </div>
-        <div class="content">
-            <h3>about us</h3>
-            <p>We are the largest and the most prestigious tourism site on the indian market offering a suite of top of the class transportation, lodging, cuisine and the best in class tour guides available.</p>
-            <a href="about.php" class="btn">read more</a>
-        </div>
-    </section>
-
-    <!-- Home Packages -->
-    <section class="home-packages">
-        <h1 class="heading">our packages</h1>
+    <!-- Packages -->
+    <section class="packages">
+        <h1 class="heading-title">top destinations</h1>
         <div class="box-container">
             <div class="box">
                 <div class="image">
-                    <img src="images/hp1.jpg" alt="">
+                    <img src="images/p1.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>core travel package</h3>
-                    <p>multi vehicle tour system.
-                        <br>dedicated best of the best tour guide.
-                        <br>top of the line lodging, cuisine and attractions.
-                    </p>
+                    <h3>basic core package</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minima et reprehenderit! Ducimus culpa fugit adipisci eum. Laudantium, nam quas, fuga rem non praesentium perferendis culpa excepturi consequatur molestias corrupti!</p>
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="images/hp2.jpg" alt="">
+                    <img src="images/p2.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>select travel package</h3>
-                    <p>everything in core.
-                        <br>added tourism destinations.
-                        <br>best in field professional photographer.
-                    </p>
+                    <h3>basic core package</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minima et reprehenderit! Ducimus culpa fugit adipisci eum. Laudantium, nam quas, fuga rem non praesentium perferendis culpa excepturi consequatur molestias corrupti!</p>
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image">
-                    <img src="images/hp3.jpg" alt="">
+                    <img src="images/p3.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>deluxe travel package</h3>
-                    <p>everything in select.
-                        <br>Added hiking, terekking and skiing trip.
-                        <br>deluxe vehicles, hotels and cuisine.
-                    </p>
+                    <h3>basic core package</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minima et reprehenderit! Ducimus culpa fugit adipisci eum. Laudantium, nam quas, fuga rem non praesentium perferendis culpa excepturi consequatur molestias corrupti!</p>
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
 
+            <div class="box">
+                <div class="image">
+                    <img src="images/p4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>basic core package</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minima et reprehenderit! Ducimus culpa fugit adipisci eum. Laudantium, nam quas, fuga rem non praesentium perferendis culpa excepturi consequatur molestias corrupti!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/p5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>basic core package</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minima et reprehenderit! Ducimus culpa fugit adipisci eum. Laudantium, nam quas, fuga rem non praesentium perferendis culpa excepturi consequatur molestias corrupti!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/p6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>basic core package</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minima et reprehenderit! Ducimus culpa fugit adipisci eum. Laudantium, nam quas, fuga rem non praesentium perferendis culpa excepturi consequatur molestias corrupti!</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
         </div>
     </section>
 
