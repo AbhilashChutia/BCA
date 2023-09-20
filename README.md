@@ -1,3 +1,5 @@
-Bachelor's of COmputer Application
+Bachelor's of Computer Application
   -Jagannath Barooah College
-  -Under Dibrugarh University
+  -Dibrugarh University
+  -Registration : C2000546
+  -Roll No : 20992032
