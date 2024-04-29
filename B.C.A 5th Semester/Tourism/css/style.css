@@ -1,0 +1,482 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Button */
+.btn{
+    text-align: center;
+    margin-bottom: 2rem;
+    display: inline-block;
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: red;
+}
+
+/* Header */
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.header .navbar a{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: black;
+}
+
+.header .navbar a:hover{
+    color: red;
+}
+
+/* Home */
+.home{
+    padding:0px;
+}
+
+.home .main{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 94vh;
+}
+
+.home .content{
+    width: 85rem;
+}
+
+.home .content span{
+    display: block;
+    font-size: 2.2rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.home .content h3{
+    font-size: 6vw;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: black;
+}
+
+/* Explore */
+.explore{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.explore h1{
+    font-size: 36px;
+}
+.explore p{
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.row{
+    padding: 0px 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.explore-col{
+    flex-basis: 30%;
+    height: 75vh;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.explore-col img{
+    width: 100%;
+    height: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(41, 38, 38, 0.5);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* Home About */
+.home-about{
+    padding: 6rem 3rem 6rem 3rem;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex: 1 1 41rem;
+}
+
+.home-about .image img{
+   width: 100%; 
+}
+
+.home-about .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background-color: whitesmoke;
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: black;
+}
+
+.home-about .content p{
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* Home Packages */
+.home-packages{
+    padding-bottom: 6rem;
+    background: whitesmoke;
+}
+
+.home-packages h1{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+    
+}
+
+.home-packages .box-container{
+    padding: 0rem 6rem 0rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30rem, 1fr));
+    gap: 3rem;
+}
+
+.home-packages .box-container .box{
+    padding: 3rem 3rem 3rem 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background: white;
+}
+
+.home-packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+} 
+ 
+.home-packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+ 
+.home-packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+ 
+.home-packages .box-container .box .content{
+    padding:2rem;
+    text-align: center;
+}
+ 
+.home-packages .box-container .box .content h3{
+    font-size: 2.5rem;
+    color:black;
+}
+ 
+.home-packages .box-container .box .content p{
+    font-size: 1rem;
+    color:var(--light-black);
+    line-height: 2;
+    padding:1rem 0;
+}
+
+/* About */
+.heading{
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: black;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image{
+    padding-top: 10.2rem;
+    padding-bottom: 10.2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    flex: 1 1 41rem;
+}
+
+.about .image img{
+    width: 110%;
+}
+
+.about .content{
+    flex: 1 1 41rem;
+    text-align: center;
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color: black;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: black;
+    line-height: 1;
+    padding: 1rem 0;
+}
+
+/* Packages */
+.packages{
+    padding: 0rem 10rem 5rem 10rem;
+}
+
+.packages h1.heading-title{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.packages .box-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30rem, 1fr));
+    gap: 3rem;
+}
+
+.packages .box-container .box{
+    padding: 2rem 3rem 0rem 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background: white;
+}
+
+.packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+} 
+ 
+.packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+ 
+.packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+ 
+.packages .box-container .box .content{
+    padding:2rem;
+    padding-bottom: 0rem;
+    text-align: center;
+}
+ 
+.packages .box-container .box .content h3{
+    font-size: 2.5rem;
+    color:black;
+}
+ 
+.packages .box-container .box .content p{
+    font-size: 1rem;
+    color: black;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+/* Booking */
+.booking h1.heading-title{
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.booking .book-form{
+    padding: 3rem 15rem 3rem 15rem;
+    background: whitesmoke;
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    margin-top: 0rem;
+    border: black;
+}
+
+.booking .book-form .flex .inputBox input:focus{
+    background: grey;
+    color: white;
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    background: grey;
+    color: white;
+}
+
+.booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.booking .book-form .btn{
+    margin-top: 2rem;
+}
+
+/* Output */
+.container{
+    background-color: lightgrey;
+    padding: 5rem 10rem 5rem 10rem;
+}
+.container h1{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    border: black 2px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.container .output{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.container .btn{
+    margin-left: 1rem;
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(12, 138, 160);
+    padding: 3rem 80px 2rem;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+.footer .box-container .box h3{
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer .box-container .box a{
+    color: white;
+    font-size: 1.3rem;
+    padding-bottom: 1-rem;
+    display: block;
+}
+
+.footer .box-container .box a i{
+    color: rgb(156, 60, 165);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: .1rem solid white;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer .credit span{
+    color: purple;
+}
